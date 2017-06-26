@@ -11,6 +11,14 @@ class App extends Component {
           <h2>Todo</h2>
         </div>
         <p className="App-intro">
+          <form action="">
+            <input type="text"/>
+          </form>
+          <ul className="todo-list">
+            <li><input type="checkbox"/> Learn Something</li>
+            <li><input type="checkbox"/> Milk</li>
+            <li><input type="checkbox"/> Tada</li>
+          </ul>
         </p>
       </div>
     );
