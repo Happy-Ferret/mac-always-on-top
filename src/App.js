@@ -16,19 +16,18 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+        <div className="todo">
           <h2>Todo</h2>
+          <form action="">
+            <input type="text"/>
+          </form>
+          <ul className="todo-list">
+            {this.state.todos.map(todo =>
+              <li key={todo.id}>
+                <input type="checkbox" defaultChecked={todo.isCompleted} />{todo.name}
+              </li>)}
+          </ul>
         </div>
-        <form action="">
-          <input type="text"/>
-        </form>
-        <ul className="todo-list">
-          {this.state.todos.map(todo =>
-            <li key={todo.id}>
-              <input type="checkbox" defaultChecked={todo.isCompleted} />{todo.name}
-            </li>)}
-        </ul>
       </div>
     );
   }
