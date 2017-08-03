@@ -1,3 +1,37 @@
+@font-face {
+    font-family: "mallory";
+    src: url("fonts/Mallory-Book.woff") format('woff');
+}
+
+@font-face {
+    font-family: "mallory-mp";
+    src: url("fonts/MalloryMP-Book.woff") format('woff');
+}
+
+@font-face {
+    font-family: "mallory";
+    src: url("fonts/Mallory-Bold.woff") format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "mallory-mp";
+    src: url("fonts/MalloryMP-Bold.woff") format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "mallory";
+    src: url("fonts/Mallory-Book-Italic.woff") format('woff');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "mallory-mp";
+    src: url("fonts/MalloryMP-Book-Italic.woff") format('woff');
+    font-style: italic;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
@@ -11,6 +45,7 @@
 .todo {
   width: 60%;
   margin: 2rem auto;
+  font-family: "mallory", sans-serif;
 }
 
 ul {
