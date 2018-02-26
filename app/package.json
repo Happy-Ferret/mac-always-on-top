@@ -1,0 +1,20 @@
+{
+  "name": "aot",
+  "productName": "Always-On-Top",
+  "author": "Amie Chen",
+  "version": "0.1.0",
+  "description": "An always on top app",
+  "scripts": {
+    "start": "electron main.js",
+    "package": "build"
+  },
+  "main": "main.js",
+  "devDependencies": {
+    "devtron": "^1.4.0",
+    "electron": "^1.7.10",
+    "electron-builder": "^19.54.0"
+  },
+  "build": {
+    "appId": "com.hyperyolo.aot"
+  }
+}

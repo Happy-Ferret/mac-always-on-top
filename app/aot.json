@@ -1,0 +1,7 @@
+{
+  "name": "aot",
+  "description": "Electron AOT App",
+  "path": "/Users/cheching/Projects/Personal/mac-always-on-top/app/dist/mac/Always-On-Top.app/Contents/MacOS/Always-On-Top",
+  "type": "stdio",
+  "allowed_extensions": [ "chinghc@gmail.com" ]
+}
